@@ -1,4 +1,4 @@
-# openmvg-docker
+# cmvspmvs-docker
 
 Scripts to build docker containers for [cmvspmvs](https://github.com/pmoulon/cmvs-pmvs)
 
