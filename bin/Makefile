@@ -7,7 +7,7 @@ clean:
 	find . -maxdepth 1 -type l -exec rm \{} \;
 
 build:
-	docker run --rm=true -it cmvs_pmvs-build find /home/doxel/local/bin/ -type f -printf '%f\0' \
+	docker run --rm=true -it cmvspmvs-build find /home/doxel/local/bin/ -type f -printf '%f\0' \
 	| parallel --gnu --null ln -sf docker-cmvspmvs {}
 
 install:
